@@ -8,6 +8,8 @@ smartlink_init(callback_func, callback_func_args);
 
 此时芯片会清除 wifi 设置并且将 wifi 设置为 station 模式，监听周围的 `probe_request` 包，此时如果有这样的包并且ssid格式为 `ssid<!-SL-!>password`，则会获取这个ssid和密码自动连接。
 
+设置完成后会调用 `(*callback_func)(callback_func_args)`
+
 KNOWN BUGS
 =======
 `ssid<!-SL-!>password` 不能超过 32 字节，后续版本会改进
