@@ -34,3 +34,6 @@ Call `smartlink_init(callback_func, callback_func_args, callback_failed_func, ma
 
 ### Principle
 `tagged parameter` in `Probe Request` packet is not encrypted, we can reuse this area to send data to our IoT devices.
+
+### Reference
+[Cisco Support Forums](https://supportforums.cisco.com/document/52391/80211-frames-starter-guide-learn-wireless-sniffer-traces)
