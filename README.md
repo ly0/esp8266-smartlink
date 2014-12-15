@@ -22,9 +22,9 @@ smartlink_init(callback_func, callback_func_args, callback_failed_func, max_retr
 ### Usage
 Call `smartlink_init(callback_func, callback_func_args, callback_failed_func, max_retry);` when you want to use Smarklink to confiure.
 
-`callback_func`: callback function when connect target successfully.
-`callback_func_args`: arguments of success callback function
-`callback_failed_func`: callback function when fail to connect target.
+`callback_func`: callback function when connect target successfully.  
+`callback_func_args`: arguments of success callback function.  
+`callback_failed_func`: callback function when fail to connect target.  
 `max_retry`: maximiun number of retry.
 
 **Mobile**: Add a ssid named `ssid<!-SL-!>password` manually, 8266 will receive this request almost immediately and finish configuration.
