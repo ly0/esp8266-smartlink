@@ -1,4 +1,4 @@
-﻿esp8266-smartlink tzx
+﻿esp8266-smartlink 
 =======
 
 Instruction in English is followed by Chinese.
