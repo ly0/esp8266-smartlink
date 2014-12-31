@@ -31,7 +31,7 @@ Call `smartlink_init(callback_func, callback_func_args, callback_failed_func, ma
 
 **Mobile**: Add a ssid named `ssid<!-SL-!>password` manually, 8266 will receive this request almost immediately and finish configuration.
 
-**SDK Version**: 0.9.4 by Espressif
+**SDK Version**: FreeRTOS SDK by Espressif
 
 ### 原理
 `Probe Request` 包的 `tagged parameter` 字段是不加密的，这个字段中的 `ssid` 可以每次最大传送 32 字节的数据。
