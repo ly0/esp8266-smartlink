@@ -19,7 +19,7 @@ smartlink_init(callback_func, callback_func_args, callback_failed_func, max_retr
 **手机端**: 设置完成后会调用 `(*callback_func)(callback_func_args)`，连接失败则会调用 `(*callback_failed_func)(callback_func_args)`
 使用手机手动添加一个Wi-Fi网络，ssid为 ssid<!-SL-!>password,确定的几乎一瞬间 8266 就会收到并且开始配置。
 
-**SDK 版本**: FreeRTOS SDK by Espressif
+**SDK 版本**: 0.9.4 by Espressif
 
 ### Usage
 Call `smartlink_init(callback_func, callback_func_args, callback_failed_func, max_retry);` when you want to use Smarklink to configure.
@@ -31,7 +31,7 @@ Call `smartlink_init(callback_func, callback_func_args, callback_failed_func, ma
 
 **Mobile**: Add a ssid named `ssid<!-SL-!>password` manually, 8266 will receive this request almost immediately and finish configuration.
 
-**SDK Version**: FreeRTOS SDK by Espressif
+**SDK Version**: 0.9.4 by Espressif
 
 ### 原理
 `Probe Request` 包的 `tagged parameter` 字段是不加密的，这个字段中的 `ssid` 可以每次最大传送 32 字节的数据。
