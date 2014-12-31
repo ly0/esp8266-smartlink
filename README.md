@@ -20,7 +20,7 @@ smartlink_init(callback_func, callback_func_args, callback_failed_func, max_retr
 使用手机手动添加一个Wi-Fi网络，ssid为 ssid<!-SL-!>password,确定的几乎一瞬间 8266 就会收到并且开始配置。
 
 ### Usage
-Call `smartlink_init(callback_func, callback_func_args, callback_failed_func, max_retry);` when you want to use Smarklink to confiure.
+Call `smartlink_init(callback_func, callback_func_args, callback_failed_func, max_retry);` when you want to use Smarklink to configure.
 
 `callback_func`: callback function when connect target successfully.  
 `callback_func_args`: arguments of success callback function.  
